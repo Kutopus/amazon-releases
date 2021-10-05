@@ -20,13 +20,13 @@ time.sleep(0.5)
 
 
 # email
-driver.find_element_by_id('ap_email').send_keys('#')
+driver.find_element_by_id('ap_email').send_keys('#your email')
 driver.find_element_by_id('continue').click()
 time.sleep(0.5)
 
 
 # password
-driver.find_element_by_id('ap_password').send_keys('#')
+driver.find_element_by_id('ap_password').send_keys('#your password')
 driver.find_element_by_id('signInSubmit').click()
 try:
     driver.find_element_by_id('ap-account-fixup-phone-skip-link').click()
