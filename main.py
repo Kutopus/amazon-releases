@@ -47,9 +47,9 @@ time.sleep(0.2)
 
 catalog = driver.find_elements_by_css_selector('div.p13n-sc-truncated')
 
-assert os.path.isfile('products.csv')
+assert os.path.isfile('#csv file path')
 n = 1
-with open('products.csv', 'w', newline='') as file:
+with open('#csv file path', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(["row", "product"])
     for item in catalog[0:11]:
