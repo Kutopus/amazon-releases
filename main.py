@@ -5,7 +5,7 @@ import os
 
 print("Started")
 
-PATH = r'C:\Programação\Python\chromedriver.exe'
+PATH = '#chromedriver path'
 driver = webdriver.Chrome(PATH)
 
 driver.get('https://www.amazon.com.br/ap/signin?_encoding=UTF8&openid.assoc_handle=brflex&openid.claimed_id=http%3A%2F'
